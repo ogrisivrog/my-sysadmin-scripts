@@ -20,4 +20,4 @@ fi
 touch "$userdir/.bashrc"
 echo "Привет, $name!"
 timestamp=$(date '+%Y-%m-%d %H:%M:%S')
-echo "[$timestamp] Пользователь $username создан" >> setup.log
+echo "[$timestamp] Пользователь $name создан" >> setup.log
