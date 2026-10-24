@@ -1,0 +1,6 @@
+services:
+  my-script:
+    build: .
+    container_name: my-script-compose
+    volumes:
+      - /var/log:/var/log:ro
